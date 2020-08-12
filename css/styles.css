@@ -266,6 +266,37 @@ a{
 /*End Media Section*/ /*End Responsive Image Grid*/ /*End Video Section*/
 
 /*Albums Section*/
+
+/*Modal*/
+.bs-example { 
+    margin: 20px; 
+}   
+.modal-content iframe { 
+    margin: 0 auto; 
+    display: block;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.close{
+    font-size: 25px;
+    font-weight: bold;
+    color: slategrey;
+}
+.link{
+    color: #fdce40;
+}
+.link:hover{
+    color: slategray;
+    text-decoration: none;
+}
+.link:active{
+    color: #fdce40;
+    text-decoration: none;
+}
+
+/*End Modal*/
+
+
 .flexbox-container{
     max-width: 1500px;
     display: flex;
@@ -320,15 +351,15 @@ a{
 }
 .flip-card-back h2{
     font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
-    padding-top: 20px;
+    font-size: 2rem;
+    padding-top: 5px;
 }
 .flip-card-back h2 span{
     color: #fdce40;
 }
 .flip-card-back p{
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -336,12 +367,14 @@ a{
 }
 .flip-card-back ol{
     font-family: 'Poppins', sans-serif;
-    font-size: 1.15rem;
+    font-size: 1rem;
     text-align: left;
+    line-height: 1.4rem;
     padding-left: 75px;
 }
 
 /*End Albums Section*/
+
 
 /*About Section*/
 #about .about{
