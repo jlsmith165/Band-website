@@ -190,7 +190,32 @@
 
                 <div class="albums header">
                     <div class="section-title">Alb<span>u</span>ms</div>
-                </div>                         
+                </div>
+
+    <!--Video Modal-->                
+        <div class="bs-example"> 
+            <!--<a href="#myModal" 
+               class="btn btn-lg btn-primary" 
+               data-toggle="modal">Play Song</a>-->
+  
+            <div id="myModal" class="modal fade"> 
+                <div class="modal-dialog"> 
+                    <div class="modal-content"> 
+
+                        <div class="modal-header"> 
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+                        </div> 
+
+                        <div class="modal-body"> 
+                            <iframe id="myVideo" width="476" height="350" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" frameborder="0" allowfullscreen></iframe>
+                        </div> 
+
+                    </div> 
+                </div> 
+          </div> 
+      </div>
+             
+    <!--End Video Modal-->                        
 
         </section>
 
@@ -204,6 +229,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/6Cg1pPfnfFXlR1qH2H6NDL" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>Queen II <span>&#8226;</span> 1974</h2>
 
                                 <p>Side White</p>
@@ -238,6 +264,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/5CooX2xg5YibepSfjbRFNT" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>Sheer Heart Attack <span>&#8226;</span> 1974</h2>
 
                                 <p>Side One</p>
@@ -273,6 +300,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/7HVoV2lgVsmuiHsjbbUJB4" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>A Night at the Opera <span>&#8226;</span> 1975</h2>
 
                                 <p>Side One</p>
@@ -291,7 +319,9 @@
                                     <li>The Prophet's Song</li>
                                     <li>Love of My Life</li>
                                     <li>Good Company</li>
-                                    <li>Bohemian Rhapsody</li>
+                                    <li><a href="#myModal" 
+                                        class="link" 
+                                        data-toggle="modal">Bohemian Rhapsody</a></li>
                                     <li>God Save the Queen</li>
                                 </ol>
 
@@ -299,8 +329,6 @@
                         </div>
                     </div>
                 </div>
-
-
 
                 <div class="flexbox-item-1">
                     <div class="flip-card">
@@ -310,6 +338,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/3f45rzbU4dYQBTV9v5RFBB" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>A Day at the Races <span>&#8226;</span> 1976</h2>
 
                                 <p>Side One</p>
@@ -343,6 +372,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/3rhGvoWqfMzr4TQziVimL5" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>News of the World <span>&#8226;</span> 1977</h2>
 
                                 <p>Side One</p>
@@ -377,6 +407,7 @@
                             </div>
 
                             <div class="flip-card-back">
+                                <iframe src="https://open.spotify.com/embed/album/5X3rA8To5GDOeIWdQyMEcE" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                                 <h2>Jazz <span>&#8226;</span> 1978</h2>
 
                                 <p>Side One</p>
@@ -403,11 +434,7 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
+                
             </div>
 
     <!--End Albums Section-->
@@ -476,7 +503,7 @@
     <!--End About Section-->
 
     <!--Shop Section-->
-
+    <!--//////////////-->    
     <!--End Shop Section-->
 
     <!--Footer Section-->
@@ -484,11 +511,11 @@
             <div class="footer container">
 
                 <div class="social-icon">
-                    <div class="social-item"><a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ" target="_blank"><img src="img/icons8-play-button-50.png" width="70%"></a></div>
-                    <div class="social-item"><a href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d" target="_blank"><img src="img/icons8-spotify-50.png" width="70%"></a></div>
-                    <div class="social-item"><a href="https://www.instagram.com/officialqueenmusic/?hl=en" target="_blank"><img src="img/icons8-instagram-50.png" width="70%"></a></div>
-                    <div class="social-item"><a href="https://twitter.com/QueenWillRock?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="img/icons8-twitter-50.png" width="70%"></a></div>
-                    <div class="social-item"><a href="https://www.facebook.com/Queen/" target="_blank"><img src="img/icons8-facebook-50.png" width="70%"></a></div>
+                    <div class="social-item"><a href="https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ" target="_blank"><img src="img/icons8-play-button-50.png" width="70%" alt="YouTube icon"></a></div>
+                    <div class="social-item"><a href="https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d" target="_blank"><img src="img/icons8-spotify-50.png" width="70%" alt="Spotify icon"></a></div>
+                    <div class="social-item"><a href="https://www.instagram.com/officialqueenmusic/?hl=en" target="_blank"><img src="img/icons8-instagram-50.png" width="70%" alt="Instagram icon"></a></div>
+                    <div class="social-item"><a href="https://twitter.com/QueenWillRock?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><img src="img/icons8-twitter-50.png" width="70%" alt="Twitter icon"></a></div>
+                    <div class="social-item"><a href="https://www.facebook.com/Queen/" target="_blank"><img src="img/icons8-facebook-50.png" width="70%" alt="Facebook icon"></a></div>
                 </div>
                 <p>Copyright <span>&#169</span> 2020. All rights reserved.</p>
             </div>
@@ -500,16 +527,13 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
     <script src="js/lightbox.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+   
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     
     <script type="text/javascript" src="slick/slick.min.js"></script>
-
     
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
-
+    
     <script src="js/function.js"></script>
 </body>
 </html>
