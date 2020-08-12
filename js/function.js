@@ -61,4 +61,14 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
+//Modal Video//
+$(document).ready(function() { 
+  var url = $("#myVideo").attr('src'); 
+  $("#myModal").on('hide.bs.modal', function() { 
+      $("#myVideo").attr('src', ''); 
+  }); 
+  $("#myModal").on('show.bs.modal', function() { 
+      $("#myVideo").attr('src', url); 
+  });
 
+});
